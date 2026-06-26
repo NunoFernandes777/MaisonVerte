@@ -1,0 +1,17 @@
+C:\Users\pedro\Documents\GitHub\AppPlant\node_modules\expo\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+Error: UNKNOWN: unknown error, lstat 'C:\Users\pedro\Documents\GitHub\AppPlant\node_modules\.get-proto-0druvHhu\.github\?\C:\Users\pedro\Documents\GitHub\AppPlant\node_modules\.get-proto-0druvHhu\.github'
+    at Object.lstat (node:internal/fs/promises:1031:18)
+    at FallbackWatcher._processChange (C:\Users\pedro\Documents\GitHub\AppPlant\node_modules\@expo\metro\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:205:20)
+Emitted 'error' event at:
+    at FallbackWatcher.emitError (C:\Users\pedro\Documents\GitHub\AppPlant\node_modules\@expo\metro\node_modules\metro-file-map\src\watchers\AbstractWatcher.js:70:19)
+    at C:\Users\pedro\Documents\GitHub\AppPlant\node_modules\@expo\metro\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:193:25 {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'lstat',
+  path: 'C:\\Users\\pedro\\Documents\\GitHub\\AppPlant\\node_modules\\.get-proto-0druvHhu\\.github\\?\\C:\\Users\\pedro\\Documents\\GitHub\\AppPlant\\node_modules\\.get-proto-0druvHhu\\.github'
+}
+
+Node.js v24.11.1
